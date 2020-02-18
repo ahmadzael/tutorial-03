@@ -93,7 +93,7 @@ public class MovieController {
 
 				listMovie.remove(archive);
 				
-				model.addAttribute("id", id);
+				model.addAttribute("id", id.get());
 				
 				result = "delete-movie";
 			}
